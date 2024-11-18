@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Светло-серый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.profile {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.info h1 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.info p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* FontAwesome icons (необходимо подключить библиотеку) */
+.fab {
+  font-size: 1.2em;
+}
+
+
